@@ -7,7 +7,7 @@ from typing import List, Dict
 from pydantic import BaseModel  # Updated import
 
 # Load API keys from environment variables for security
-openai_api_key = os.getenv('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')  # Use the environment variable name
+openai_api_key = os.getenv('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')  # Use the environment variable name
 newsapi_key = os.getenv('d70b0432bebb46e98a2f8b5555f5a994')  
 
 # Check if API keys are loaded
